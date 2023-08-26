@@ -2,7 +2,7 @@ let input=document.getElementById("input");
 let button=document.getElementById("button");
 let errorMessage=document.getElementById("errorMessage");
 let responsiveImage1=document.getElementById("responsiveImage");
-responsiveImage1.style.width="400px";
+responsiveImage1.style.width="375px";
 input.addEventListener("input",()=>{
     //use the input value instead
     validateEmail(input.value);
